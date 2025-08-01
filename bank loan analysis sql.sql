@@ -1,3 +1,8 @@
+-- SQL Queries for Bank Loan Analysis
+
+-- Assuming the table name is bank_loan_data and it has the following columns:
+-- id, issue_date, loan_amount, total_payment, int_rate, dti, loan_status, address_state, term, emp_length, purpose, home_ownership
+
 -- Total Loan Applications
 SELECT COUNT(id) AS Total_Applications FROM bank_loan_data;
 
